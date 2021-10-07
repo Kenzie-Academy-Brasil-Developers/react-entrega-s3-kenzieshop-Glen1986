@@ -2,7 +2,7 @@
 import AppBar from "@material-ui/core/AppBar";
 import Toolbar from "@material-ui/core/Toolbar";
 import MenuItem from "@material-ui/core/MenuItem";
-import { useHistory } from "react-router";
+import {useHistory} from "react-router";
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import {useSelector} from 'react-redux'
 

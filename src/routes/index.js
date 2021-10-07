@@ -1,7 +1,6 @@
-
-import { Switch, Route } from "react-router-dom";
+import {Switch, Route} from "react-router-dom";
 import Products from "../components/products";
-import Cart from "../components/carrinho";
+import Carro from "../pages/carro";
 
 const routes = () => {
   return (
@@ -10,7 +9,7 @@ const routes = () => {
         <Products />
       </Route>
       <Route path="/carriho">
-        <Cart />
+        <Carro />
       </Route>
     </Switch>
   );
