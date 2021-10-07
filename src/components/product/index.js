@@ -1,16 +1,16 @@
 import {Container} from './styles'
 
-import { useDispatch } from "react-redux";
+import {useDispatch} from "react-redux";
 import {
   addToCartThunk,
   removeFromCartThunk,
 } from "../../store/modules/cart/thunks";
 
-const Product = ({ product, isRemovable = false }) => {
+const Product = ({product, isRemovable = false}) => {
 
   const dispatch = useDispatch();
 
-  const {  name, price, image, id } = product;
+  const {name, price, image, id} = product;
 
   return (
     <Container>
