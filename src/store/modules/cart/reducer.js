@@ -1,4 +1,4 @@
-const defaultState = JSON.parse(localStorage.getItem("cart"))||[]
+const defaultState = JSON.parse(localStorage.getItem("cart")) || []
 const cartReducer = (state = [], action) => {
   console.log("CART", action);
   switch (action.type) {
@@ -11,10 +11,10 @@ const cartReducer = (state = [], action) => {
       const {list} = action;
 
       return list;
-      
+
 
     default:
-      return state;
+      return defaultState;
   }
 };
 
