@@ -5,12 +5,13 @@ export const Container = styled.div`
   background-color:white;
   justify-content:center;
   width: 20rem;
-  >button{
-  height:4rem;
-  margin-bottom:2rem;
-  font-size:1rem;
-    background-color: #99ebff;
-    cursor:pointer;
-    border-radius:15px;
+  border-radius:15px;
+    >button{
+      height:4rem;
+      margin-bottom:2rem;
+      font-size:1rem;
+      background-color: #99ebff;
+      cursor:pointer;
+      border-radius:15px;
 }
 ` ;

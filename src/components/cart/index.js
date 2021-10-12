@@ -12,7 +12,9 @@ const Cart = () => {
       <div className="products">
         {
           cart.map((product) => (
-            <Product key={product.id} product={product} isRemovable />
+            <>
+              <Product key={product.id} product={product} isRemovable />
+            </>
           ))
         }
       </div>

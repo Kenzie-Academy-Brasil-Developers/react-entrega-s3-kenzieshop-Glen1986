@@ -1,9 +1,12 @@
 import Cart from '../../components/cart'
-const Carro =()=>{
-  return(
-    <>
-      <Cart/>
-    </>
+import {useSelector} from 'react-redux';
+const Carro = () => {
+  const price = useSelector((store) => store.products)
+  return (
+    <div>
+      <Cart />
+
+    </div>
   )
 }
 export default Carro;
