@@ -1,6 +1,8 @@
+import Products from '../../components/products'
 const Dashboard = () => {
   return (
-    <>dash</>
+    <Products/>
   )
 }
 export default Dashboard;
+

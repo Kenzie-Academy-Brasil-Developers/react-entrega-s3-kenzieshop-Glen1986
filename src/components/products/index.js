@@ -1,5 +1,5 @@
 import {Container} from './styles'
-import { useSelector } from "react-redux";
+import {useSelector} from "react-redux";
 import Product from "../product";
 
 const Products = () => {

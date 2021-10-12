@@ -1,7 +1,8 @@
 import "./App.css";
 import Menu from "./components/menu";
-import Routes from "./routes";
-
+import Routes from "./Routes";
+//import Carro from './pages/carro';
+//import Dashboard from './pages/dashboard;'
 function App() {
   return (
     <>

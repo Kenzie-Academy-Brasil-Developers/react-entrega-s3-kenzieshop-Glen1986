@@ -10,16 +10,16 @@ const Product = ({product, isRemovable = false}) => {
 
   const dispatch = useDispatch();
 
-  const {name, price, image, id} = product;
+  const {name, price, image} = product;
 
   return (
     <Container>
       <h3>{name}</h3>
-      <h3>{id}</h3>
       <img src={image} alt="" />
       <h3>{price}</h3>
       {isRemovable ? (
-        <button onClick={() => dispatch(removeFromCartThunk(id))}>
+
+        <button onClick={() => dispatch(removeFromCartThunk(name))}>
           Remover item do carrinho
         </button>
       ) : (
