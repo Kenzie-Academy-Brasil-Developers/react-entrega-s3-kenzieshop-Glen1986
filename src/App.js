@@ -1,8 +1,7 @@
 import "./App.css";
 import Menu from "./components/menu";
 import Routes from "./Routes";
-//import Carro from './pages/carro';
-//import Dashboard from './pages/dashboard;'
+//https://react-entrega-s3-kenzieshop-glen1986-glen1986.vercel.app
 function App() {
   return (
     <>
