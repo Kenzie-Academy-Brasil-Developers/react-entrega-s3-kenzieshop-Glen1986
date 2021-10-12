@@ -6,12 +6,13 @@ width:20rem;
 margin-left:auto;
 align-items:center;
   >button{
-  height:4rem;
-  margin-bottom:2rem;
-  font-size:1rem;
-  background-color: #99ebff;
-  cursor:pointer;
-  border-radius:15px;
-  padding: 0 3rem;
+    height:4rem;
+    margin-bottom:2rem;
+    font-size:1rem;
+    background-color: #4383fa;
+    cursor:pointer;
+    border-radius:15px;
+    padding: 0 3rem;
+    color:white;
 }
 `;

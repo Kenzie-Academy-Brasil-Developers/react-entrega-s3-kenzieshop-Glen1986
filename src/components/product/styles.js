@@ -9,8 +9,9 @@ export const Container = styled.div`
   height:4rem;
   margin-bottom:2rem;
   font-size:1rem;
-    background-color: #99ebff;
+    background-color:#4383fa;
     cursor:pointer;
     border-radius:15px;
+    color:white;
 }
 ` ;
